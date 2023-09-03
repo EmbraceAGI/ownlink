@@ -1,0 +1,36 @@
+import React from 'react';
+import Layout from '../components/Layout';
+
+const FriendsPage: React.FC = () => {
+  return (
+    <Layout>
+      <h1>Meet My Friends</h1>
+      <p>
+        Welcome to the Friends page, where I introduce you to some of my amazing friends who share
+        similar interests and passions. Connect with us and explore our shared activities!
+      </p>
+      <div className="friend">
+        <img src="link_to_friend_image_1.jpg" alt="Friend 1" />
+        <h2>Friend 1: [Friend's Name]</h2>
+        <p>
+          Hey there! I'm [Friend's Name], and I'm passionate about [friend's interests or hobbies].
+          We've had some great adventures together, whether it's [mention a shared activity or memory].
+          Connect with me on [social media links, if desired]!
+        </p>
+      </div>
+      <div className="friend">
+        <img src="link_to_friend_image_2.jpg" alt="Friend 2" />
+        <h2>Friend 2: [Friend's Name]</h2>
+        <p>
+          Meet [Friend's Name], my awesome friend who loves [friend's interests or hobbies].
+          We often [mention a shared activity or memory].
+          If you're into [shared interest], you'll definitely enjoy chatting with [Friend's Name].
+          Find me on [social media links, if desired]!
+        </p>
+      </div>
+      {/* Add more friends' sections as needed */}
+    </Layout>
+  );
+};
+
+export default FriendsPage;
