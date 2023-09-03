@@ -1,63 +1,50 @@
 <p align="center">
   <a href="https://transitivebullsh.it/nextjs-notion-starter-kit">
-    <img alt="Example article page" src="https://user-images.githubusercontent.com/552829/160132094-12875e09-41ec-450a-80fc-ae8cd488129d.jpg" width="689">
+    <img alt="Example" src="https://user-images.githubusercontent.com/552829/160132094-12875e09-41ec-450a-80fc-ae8cd488129d.jpg" width="689">
   </a>
 </p>
 
-# Next.js Notion Starter Kit
+# Next.js Notion Integration Kit
 
-> The perfect starter kit for building websites with Next.js and Notion.
+> The ultimate starter kit for Next.js and Notion integration.
 ![msedge_WoI4jhTO6l](https://github.com/hougarry/ownlink/assets/52512824/d21467b7-0367-42f8-ac48-c179c63d9e44)
 
-[![Build Status](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
+[![Build Badge](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml) [![Prettier Badge](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
-## Intro
+## Introduction
 
-This repo is what I use to power my personal blog and portfolio site [transitivebullsh.it](https://transitivebullsh.it).
+Fueling my personal blog and portfolio, this repository leverages the power of Notion as a CMS via [react-notion-x](https://github.com/NotionX/react-notion-x), [Next.js](https://nextjs.org/), and [Vercel](https://vercel.com).
 
-It uses Notion as a CMS, [react-notion-x](https://github.com/NotionX/react-notion-x), [Next.js](https://nextjs.org/), and [Vercel](https://vercel.com).
+## Capabilities
 
-## Features
+- Quick setup: edit just a [single config file](./site.config.ts) 🛠
+- Deep integration with Notion via [react-notion-x](https://github.com/NotionX/react-notion-x)
+- Tech stack: Next.js, TypeScript, React ⚙
+- Performance and SEO optimized 🚀
+- Auto-generated social images 🖼
+- Clean URLs 🌐
+- Dynamic TOCs 📚
+- Dark mode support 🌒
+- CMD+K / CMD+P for quick search 🔍
+- Mobile responsive 📱
 
-- Setup only takes a few minutes ([single config file](./site.config.ts)) 💪
-- Robust support for Notion content via [react-notion-x](https://github.com/NotionX/react-notion-x)
-- Built using Next.js, TS, and React
-- Excellent page speeds
-- Smooth image previews
-- Automatic social images
-- Automatic pretty URLs
-- Automatic table of contents
-- Full support for dark mode
-- Quick search via CMD+K / CMD+P
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## Live Examples
 
-## Demos
+- [Official demo](https://nextjs-notion-starter-kit.transitivebullsh.it)
+- [Personal Site](https://transitivebullsh.it)
 
-- [Default demo](https://nextjs-notion-starter-kit.transitivebullsh.it) - Deployed from the `main` branch
-- [My site](https://transitivebullsh.it) - Deployed from the `transitive-bullshit` branch
+## Getting Started
 
-## Setup
+**Configuration is handled in [site.config.ts](./site.config.ts).**
 
-**All config is defined in [site.config.ts](./site.config.ts).**
+1. Fork or clone the repo 🍴
+2. Edit values in [site.config.ts](./site.config.ts) 📝
+3. `npm install` 📦
+4. `npm run dev` for local testing 🖥
+5. `npm run deploy` to push to Vercel 🚀
 
-This project requires a recent version of Node.js (we recommend >= 16).
+For the `rootNotionPageId`, use the last segment of your public Notion page URL. More instructions in the repo.
 
-1. Fork / clone this repo
-2. Change a few values in [site.config.ts](./site.config.ts)
-3. `npm install`
-4. `npm run dev` to test locally
-5. `npm run deploy` to deploy to vercel 💪
-
-I tried to make configuration as easy as possible — All you really need to do to get started is edit `rootNotionPageId`.
-
-We recommend duplicating the [default page](https://notion.so/7875426197cf461698809def95960ebf) as a starting point, but you can use any public notion page you want.
-
-Make sure your root Notion page is **public** and then copy the link to your clipboard. Extract the last part of the URL that looks like `7875426197cf461698809def95960ebf`, which is your page's Notion ID.
-
-In order to find your Notion workspace ID (optional), just load any of your site's pages into your browser and open up the developer console. There will be a global variable that you can access called `block` which is the Notion data for the current page. If you enter `block.space_id`, it will print out your page's workspace ID.
-
-I recommend setting up a collection on your home page that contains all of your articles / projects / content. There are no structural constraints on your Notion workspace, however, so feel free to add content as you normally would in Notion.
 
 ## URL Paths
 
@@ -178,10 +165,4 @@ If you want to test your redis builds with GitHub Actions, then you'll need to e
 
 ## Contributing
 
-See the [contribution guide](contributing.md) and join our amazing list of [contributors](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/graphs/contributors)!
 
-## License
-
-MIT © [Travis Fischer](https://transitivebullsh.it)
-
-Support my open source work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
