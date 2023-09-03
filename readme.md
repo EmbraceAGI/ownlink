@@ -149,12 +149,18 @@ Pages adapt to various device sizes.
 [PostHog](https://posthog.com/) offers an open-source alternative. Activate it by adding `NEXT_PUBLIC_POSTHOG_ID` as an environment variable (production-only).
 
 
-## Environment Variables
+## Environment Setup
 
-If you're using Redis, analytics, or any other feature which requires environment variables, then you'll need to [add them to your Vercel project](https://vercel.com/docs/concepts/projects/environment-variables).
+For utilizing Redis, analytics, or any other services requiring environment variables, [configure them in your Vercel project](https://vercel.com/docs/concepts/projects/environment-variables).
 
-If you want to test your redis builds with GitHub Actions, then you'll need to edit the [default build action](./.github/workflows/build.yml) to add `REDIS_HOST` and `REDIS_PASSWORD`. Here is an [example from my personal branch](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/blob/transitive-bullshit/.github/workflows/build.yml#L17-L21). You'll also need to add these environment variables to your GitHub repo as [repository secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
+To test Redis integration with GitHub Actions, update the [build action YAML](./.github/workflows/build.yml) to include `REDIS_HOST` and `REDIS_PASSWORD`. See this [branch example for reference](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/blob/transitive-bullshit/.github/workflows/build.yml#L17-L21). These variables should also be added to your GitHub repo as [encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 
-## Contributing
+##How to Contribute
+Check out the contribution guide to join our list of amazing contributors.
 
+##Licensing
+MIT Licensed © Travis Fischer
+
+##Support
+Follow me on Twitter to support my open-source contributions.
 
