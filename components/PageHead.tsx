@@ -5,6 +5,21 @@ import * as config from '@/lib/config'
 import * as types from '@/lib/types'
 import { getSocialImageUrl } from '@/lib/get-social-image-url'
 
+const GoogleAnalyticsScript = () => (
+  <>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-05SRM53Q3Z"></script>
+    <script dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-05SRM53Q3Z');
+      `
+    }}>
+    </script>
+  </>
+);
+
 export const PageHead: React.FC<
   types.PageProps & {
     title?: string
