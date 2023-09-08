@@ -6,12 +6,16 @@
 
 # Build your ownlink through Next.js + Notion 
 
+[**Demo：**](https://ownlink-two.vercel.app/)
+[My webiste](https://www.garyhou2023.info/)
+
 > The ultimate starter kit for Next.js and Notion integration.
 > 
 
 [![Build Badge](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/actions/workflows/build.yml) [![Prettier Badge](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 ## Introduction
+
 
 Fueling my personal blog and portfolio, this repository leverages the power of Notion as a CMS via [react-notion-x](https://github.com/NotionX/react-notion-x), [Next.js](https://nextjs.org/), and [Vercel](https://vercel.com).
 
