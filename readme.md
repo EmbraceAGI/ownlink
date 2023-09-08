@@ -4,13 +4,19 @@
   </a>
 </p>
 
-# Build your ownlink through Next.js + Notion 
+# Build your ownlink through Next.js + Notion  --- Live Examples
 
 [**Demo：**](https://ownlink-two.vercel.app/) Click here to see a Demo website
-[My webiste](https://www.garyhou2023.info/) Click here to see my website
+
+[**My webiste**](https://www.garyhou2023.info/) Click here to see my website
 
 [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project)
 
+1. Deploy your ownlink in 1 minute, fork this repo and deploy it 
+2. copy this notion template in your notion, get the notion page id like this : 
+[Notion-template](https://twilight-stay-202.notion.site/Ownlink_Template-292e44db817d4cafb370287e59a63b93?pvs=4) 
+id is 292e44db817d4cafb370287e59a63b93?pvs=4
+3. Edit values in [site.config.ts](./site.config.ts) 📝, change Notion page id to yours, that's all of it! 
 
 > The ultimate starter kit for Next.js and Notion integration.
 > 
@@ -35,10 +41,6 @@ Fueling my personal blog and portfolio, this repository leverages the power of N
 - CMD+K / CMD+P for quick search 🔍
 - Mobile responsive 📱
 
-## Live Examples
-
-- [Official demo](https://nextjs-notion-starter-kit.transitivebullsh.it)
-- [Personal Site](https://transitivebullsh.it)
 
 ## Getting Started
 
