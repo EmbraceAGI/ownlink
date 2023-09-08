@@ -164,12 +164,6 @@ For utilizing Redis, analytics, or any other services requiring environment vari
 
 To test Redis integration with GitHub Actions, update the [build action YAML](./.github/workflows/build.yml) to include `REDIS_HOST` and `REDIS_PASSWORD`. See this [branch example for reference](https://github.com/transitive-bullshit/nextjs-notion-starter-kit/blob/transitive-bullshit/.github/workflows/build.yml#L17-L21). These variables should also be added to your GitHub repo as [encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 
-##How to Contribute
+## How to Contribute
 Check out the contribution guide to join our list of amazing contributors.
-
-##Licensing
-MIT Licensed © Travis Fischer
-
-##Support
-Follow me on Twitter to support my open-source contributions.
 
