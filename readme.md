@@ -6,8 +6,11 @@
 
 # Build your ownlink through Next.js + Notion 
 
-[**Demo：**](https://ownlink-two.vercel.app/)
-[My webiste](https://www.garyhou2023.info/)
+[**Demo：**](https://ownlink-two.vercel.app/) Click here to see a Demo website
+[My webiste](https://www.garyhou2023.info/) Click here to see my website
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project)
+
 
 > The ultimate starter kit for Next.js and Notion integration.
 > 
