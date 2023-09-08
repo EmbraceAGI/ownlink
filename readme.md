@@ -16,7 +16,7 @@
 2. copy this notion template in your notion, get the notion page id like this : 
 [Notion-template](https://twilight-stay-202.notion.site/Ownlink_Template-292e44db817d4cafb370287e59a63b93?pvs=4) 
 id is 292e44db817d4cafb370287e59a63b93?pvs=4
-3. Edit values in [site.config.ts](./site.config.ts) 📝, change Notion page id to yours, that's all of it! 
+3. Edit values in [site.config.ts](./site.config.ts) 📝, change Notion page id to yours, that's all of it, your have your ownlink now!
 
 > The ultimate starter kit for Next.js and Notion integration.
 > 
