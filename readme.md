@@ -1,6 +1,17 @@
+<h1 align="center">
+<span>Build your ownlink</span>
+</h1>
+<p align="center">
+    English | <a href="./README-CN.md">中文介绍</a> 
+</p>
+<p align="center">
+    <em>
+
+
+
 <p align="center">
   <a href="https://github.com/hougarry/ownlink">
-    <img alt="Example" src="https://github.com/hougarry/ownlink/assets/52512824/d21467b7-0367-42f8-ac48-c179c63d9e44" width="689">
+    <img alt="Example" src="https://github.com/hougarry/ownlink/assets/52512824/d21467b7-0367-42f8-ac48-c179c63d9e44" width="400">
   </a>
 </p>
 
