@@ -1,20 +1,3 @@
-<h1 align="center">
-<span>一分钟内搭建个人link</span>
-</h1>
-<p align="center">
-    中文 | <a href="./README-CN.md">英文</a> 
-</p>
-<p align="center">
-    <em>
-</p>
-
-<p align="center">
-  <a href="https://github.com/hougarry/ownlink">
-    <img alt="示例" src="https://github.com/hougarry/ownlink/assets/52512824/d21467b7-0367-42f8-ac48-c179c63d9e44" width="400">
-  </a>
-</p>
-<main>
-  <p>
 # 使用 Next.js + Notion 构建你自己的链接 --- 示例网站
 
 [**演示：**](https://ownlink-two.vercel.app/) 点击此处查看演示网站
@@ -127,6 +110,5 @@ REDIS_PASSWORD='TODO'
 支持深色模式；点击页脚中的太阳/月亮图标。
 
 您可以将这个翻译文本复制并粘贴到您的 GitHub readme 文件中。如果需要进一步的修改或有其他问题，请随时告诉我。
-</p>
-</p>main>
+
 
