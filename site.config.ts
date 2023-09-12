@@ -19,7 +19,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'garry02061',
   github: 'hougarry',
-  zhihu: 'https://www.zhihu.com/people/hou-guang-yu-42',
+  zhihu: 'hou-guang-yu-42',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
