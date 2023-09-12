@@ -95,10 +95,10 @@ URL映射在构建期间自动发生。如果更改标题，请确保旧链接�
 
 为了更快地加载预览图像，请在 `site.config.ts` 中将 `isRedisEnabled` 设置为 `true` 以启用Redis缓存。在 `.env` 文件中定义 `REDIS_HOST` 和 `REDIS_PASSWORD`。
 
-```bash
+
 REDIS_HOST='TODO'
 REDIS_PASSWORD='TODO'
-```
+
 
 推荐的Redis提供商：[Redis Labs](https://redis.com)（提供免费计划）。
 
