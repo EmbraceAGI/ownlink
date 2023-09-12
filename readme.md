@@ -75,11 +75,6 @@ URL映射在构建期间自动发生。如果更改标题，请确保旧链接�
 
 ## 图像优化
 
-<p align="center">
-  <img alt="示例图像" src="https://user-images.githubusercontent.com/552829/160142320-35343317-aa9e-4710-bcf7-67e5cdec586d.gif" width="458">
-</p>
-
-我们使用 [next/image](https://nextjs.org/docs/api-reference/next/image) 以及可选的 [lqip-modern](https://github.com/transitive-bullshit/lqip-modern) 来实现高效的图像。
 
 默认情况下启用预览图像。要禁用，请在 `site.config.ts` 中将 `isPreviewImageSupportEnabled` 设置为 `false`。
 
@@ -111,7 +106,6 @@ REDIS_PASSWORD='TODO'
   display: none;
 }
 
-
 ### 深色主题
 ```
 <p align="center">
@@ -122,6 +116,5 @@ REDIS_PASSWORD='TODO'
 ```
 支持深色模式；点击页脚中的太阳/月亮图标。
 
-您可以将这个翻译文本复制并粘贴到您的 GitHub readme 文件中。如果需要进一步的修改或有其他问题，请随时告诉我。
 
 
