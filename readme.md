@@ -33,8 +33,7 @@
 
 ## 简介
 
-
-通过 [react-notion-x](https://github.com/NotionX/react-notion-x)、[Next.js](https://nextjs.org/) 和 [Vercel](https://vercel.com)，这个仓库集合了我的个人博客和作品集。
+通过 [react-notion-x](https://github.com/NotionX/react-notion-x)、[Next.js](https://nextjs.org/) 和 [Vercel](https://vercel.com)，这个仓库汇聚了我的个人博客和作品集。
 
 ## 功能
 
@@ -69,9 +68,7 @@
   
 - **生产**：URL更干净，如 `/nextjs-notion-blog`，省略了ID。
 
-URL映射在构建期间自动发生。如果更改标题，请确保旧链接仍然可用。Next.js 的 [重定向](https://nextjs.org/docs/api-reference/next.config
-
-.js/redirects) 可以帮助，但我们不提供内置的旧链接检测。
+URL映射在构建期间自动发生。如果更改标题，请确保旧链接仍然可用。Next.js 的 [重定向](https://nextjs.org/docs/api-reference/next.config.js/redirects) 可以帮助，但我们不提供内置的旧链接检测。
 
 有关详细信息，请参阅 [mapPageUrl](./lib/map-page-url.ts) 和 [getCanonicalPageId](https://github.com/NotionX/react-notion-x/blob/master/packages/notion-utils/src/get-canonical-page-id.ts)。
 
@@ -93,7 +90,9 @@ URL映射在构建期间自动发生。如果更改标题，请确保旧链接�
 
 ### Redis 缓存
 
-为了更快地加载预览图像，请在 `site.config.ts` 中将 `isRedisEnabled` 设置为 `true` 以启用Redis缓存。在 `.env` 文件中定义 `REDIS_HOST` 和 `REDIS_PASSWORD`。
+为了更快地加载预览图像，请在 `site.config.ts` 中将 `isRedisEnabled` 设置为 `true` 以
+
+启用Redis缓存。在 `.env` 文件中定义 `REDIS_HOST` 和 `REDIS_PASSWORD`。
 
 
 REDIS_HOST='TODO'
@@ -110,11 +109,11 @@ REDIS_PASSWORD='TODO'
 
 对于特定的Notion块：
 
-```css
+
 .notion-block-260baa77f1e1428b97fb14ac99c7c385 {
   display: none;
 }
-```
+
 
 ### 深色主题
 
@@ -125,6 +124,5 @@ REDIS_PASSWORD='TODO'
 </p>
 
 支持深色模式；点击页脚中的太阳/月亮图标。
-```
 
-以上是您提供的文本的中文翻译版本。您可以将这个翻译文本复制并粘贴到您的 GitHub readme 文件中。如果需要进一步的修改或有其他问题，请随时告诉我。
+您可以将这个翻译文本复制并粘贴到您的 GitHub readme 文件中。如果需要进一步的修改或有其他问题，请随时告诉我。
