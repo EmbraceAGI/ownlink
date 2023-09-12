@@ -17,9 +17,11 @@
 
 [![部署到 Vercel](https://vercel.com/button)](https://vercel.com/import/project)
 
-1. 在1分钟内部署你自己的链接，复制这个仓库并进行部署
-2. 在你的Notion中复制这个模板，获取Notion页面ID，如下所示： [Notion 模板](https://twilight-stay-202.notion.site/Ownlink_Template-292e44db817d4cafb370287e59a63b93?pvs=4) ID 为 292e44db817d4cafb370287e59a63b93?pvs=4
-3. 在 [site.config.ts](./site.config.ts) 中编辑值 📝，将Notion页面ID更改为你的ID，就这样，你现在有了自己的链接！
+
+1. 在你的Notion中复制这个模板，获取Notion页面ID，如下所示： [Notion 模板](https://twilight-stay-202.notion.site/Ownlink_Template-292e44db817d4cafb370287e59a63b93?pvs=4) ID 为 292e44db817d4cafb370287e59a63b93?pvs=4
+2. 复制这个仓库到你的vps或者github
+3. 在 [site.config.ts](./site.config.ts) 中编辑值Notion id 📝，将Notion页面ID更改为你的ID，
+4. 直接导入vercel部署，或者在vps上部署
 
 > Next.js 和 Notion 集成的终极入门套件。
 > 
