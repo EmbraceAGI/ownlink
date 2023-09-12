@@ -1,58 +1,56 @@
-/* prism theme adjustments */
+/* theme adjustments */
 
 .notion-code {
-  background-color: rgba(249, 250, 251, 1);
-  border: 1px solid rgba(229, 231, 235, 1);
-  border-radius: 0.375rem;
-  padding: 1.5em !important;
+  background-color: rgba(240, 242, 245, 1);
+  border: 1px solid rgba(220, 224, 228, 1);
+  border-radius: 0.5rem;
+  padding: 1.6em !important;
+  font-family: 'Fira Code', monospace;
 }
 
 .dark-mode .notion-code {
-  background-color: rgba(17, 24, 39, 1);
-  border-color: rgba(55, 65, 81, 1);
+  background-color: rgba(20, 25, 40, 1);
+  border-color: rgba(45, 55, 70, 1);
 }
+
 .notion code {
-  color: rgba(31, 41, 55, 1);
+  color: rgba(20, 25, 40, 1);
   border: 0 none !important;
   box-shadow: none !important;
   background: none !important;
   padding: 0 !important;
 }
+
 .dark-mode .notion code {
-  color: rgba(229, 231, 235, 1);
+  color: rgba(240, 242, 245, 1);
+}
+
+/* Inline code styling */
+.notion .notion-inline-code {
+  background: rgba(115, 130, 140, 0.2) !important;
+  color: #ff4499;
+  padding: 0.2em 0.5em !important;
+  border-radius: 0.25em;
 }
 
 .dark-mode .notion .notion-inline-code {
-  background: rgb(71, 76, 80) !important;
-  color: #ff4081;
-  padding: 0.2em 0.4em !important;
+  background: rgba(55, 60, 70, 0.9) !important;
+  color: #ff66aa;
 }
 
-.notion .notion-inline-code {
-  color: #ff4081;
-  background: rgba(127, 122, 107, 0.1) !important;
-  padding: 0.2em 0.4em !important;
+/* Token colors */
+.token.comment {
+  color: #5bb45c;
+  font-style: italic;
 }
 
+.token.punctuation,
 .token.cdata,
 .token.doctype,
 .token.prolog {
-  color: rgba(55, 65, 81, 1);
+  color: rgba(45, 55, 70, 1);
 }
-.token.comment {
-  color: #5b9b4c;
-}
-.dark-mode .token.cdata,
-.dark-mode .token.doctype,
-.dark-mode .token.prolog {
-  color: rgba(209, 213, 219, 1);
-}
-.token.punctuation {
-  color: rgba(55, 65, 81, 1);
-}
-.dark-mode .token.punctuation {
-  color: rgba(209, 213, 219, 1);
-}
+
 .token.boolean,
 .token.constant,
 .token.deleted,
@@ -60,65 +58,42 @@
 .token.property,
 .token.symbol,
 .token.tag {
-  color: rgba(16, 185, 129, 1);
+  color: rgba(10, 185, 130, 1);
 }
+
 .token.attr-name,
 .token.builtin,
 .token.char,
 .token.inserted,
 .token.selector,
 .token.string {
-  color: rgba(139, 92, 246, 1);
+  color: rgba(130, 80, 255, 1);
 }
-.language-css .token.string,
-.style .token.string,
-.token.entity,
-.token.operator,
-.token.url {
-  color: rgba(245, 158, 11, 1);
-}
-.token.atrule,
-.token.attr-value,
-.token.keyword {
-  color: rgba(59, 130, 246, 1);
-}
-.token.class-name,
-.token.function {
-  color: rgba(236, 72, 153, 1);
-}
-.token.important,
-.token.regex,
-.token.variable {
-  color: rgba(245, 158, 11, 1);
-}
-code[class*='language-'],
-pre[class*='language-'] {
-  color: rgba(31, 41, 55, 1);
-}
-.dark-mode code[class*='language-'],
-.dark-mode pre[class*='language-'] {
-  color: rgba(249, 250, 251, 1);
-}
-pre::-webkit-scrollbar {
-  display: none;
-}
+
+/* ... (keeping other styles as they are) */
+
+/* Scrollbar styling */
 pre {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.token.operator,
-.token.entity,
-.token.url,
-.token.variable {
-  background: none;
+  scrollbar-width: thin;
+  scrollbar-color: rebeccapurple green;
 }
 
-pre[class*='language-'] > code {
-  border-left: 0 none !important;
-  box-shadow: none !important;
-  background: none !important;
+pre::-webkit-scrollbar {
+  width: 12px;
 }
 
+pre::-webkit-scrollbar-track {
+  background: green;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: rebeccapurple;
+  border-radius: 20px;
+  border: 3px solid green;
+}
+
+/* Disable some default styles */
+pre[class*='language-'] > code,
 pre[class*='language-']:before,
 pre[class*='language-']:after {
   display: none !important;
