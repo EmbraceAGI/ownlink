@@ -1,5 +1,3 @@
-# 使用 Next.js + Notion 构建你自己的链接 --- 示例网站
-
 <h1 align="center">
 <span>一分钟内搭建个人link</span>
 </h1>
