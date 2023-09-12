@@ -1,5 +1,5 @@
 <h1 align="center">
-<span>建立个人Notion链接</span>
+<span>一分钟内搭建个人link</span>
 </h1>
 <p align="center">
     中文 | <a href="./README-CN.md">英文</a> 
@@ -34,7 +34,7 @@
 ## 简介
 
 
-通过 [react-notion-x](https://github.com/NotionX/react-notion-x)、[Next.js](https://nextjs.org/) 和 [Vercel](https://vercel.com)，这个仓库推动了我的个人博客和作品集。
+通过 [react-notion-x](https://github.com/NotionX/react-notion-x)、[Next.js](https://nextjs.org/) 和 [Vercel](https://vercel.com)，这个仓库集合了我的个人博客和作品集。
 
 ## 功能
 
