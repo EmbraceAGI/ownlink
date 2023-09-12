@@ -1,0 +1,80 @@
+/* Prism theme adjustments */
+
+.notion-code {
+  background-color: rgba(249, 250, 251, 1);
+  border: 1px solid rgba(229, 231, 235, 1);
+  border-radius: 0.5rem;
+  padding: 1.5em !important;
+  font-size: 0.875em;
+}
+
+.dark-mode .notion-code {
+  background-color: rgba(17, 24, 39, 1);
+  border-color: rgba(55, 65, 81, 1);
+  color: rgba(229, 231, 235, 1);
+}
+
+.notion code {
+  color: rgba(31, 41, 55, 1);
+  font-family: 'Fira Code', monospace;
+}
+
+.dark-mode .notion code {
+  color: rgba(229, 231, 235, 1);
+}
+
+.dark-mode .notion .notion-inline-code {
+  background: rgba(71, 76, 80, 0.8) !important;
+  color: #ff4081;
+  padding: 0.2em 0.5em !important;
+  border-radius: 0.25rem;
+}
+
+.notion .notion-inline-code {
+  color: #ff4081;
+  background: rgba(127, 122, 107, 0.2) !important;
+  padding: 0.2em 0.5em !important;
+  border-radius: 0.25rem;
+}
+
+/* Additional code highlighting and readability */
+.token.cdata,
+.token.doctype,
+.token.prolog {
+  color: rgba(55, 65, 81, 0.8);
+}
+
+.token.comment {
+  color: rgba(100, 100, 100, 0.7);
+  font-style: italic;
+}
+
+/* ... [snip] ... */
+
+/* General Layout & Typography */
+.notion-page-title {
+  font-size: 2em;
+  color: rgba(31, 41, 55, 1);
+  font-weight: 600;
+}
+
+.dark-mode .notion-page-title {
+  color: rgba(229, 231, 235, 1);
+}
+
+/* ... [snip] ... */
+
+pre::-webkit-scrollbar {
+  width: 8px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: rgba(55, 65, 81, 0.5);
+}
+
+pre {
+  -ms-overflow-style: none;
+  scrollbar-width: thin;
+}
+
+/* ... [snip] ... */
