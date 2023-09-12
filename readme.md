@@ -1,8 +1,8 @@
 <h1 align="center">
-<span>Build your ownlink</span>
+<span>Notion搭建个人link</span>
 </h1>
 <p align="center">
-    English | <a href="./README-CN.md">中文介绍</a> 
+    中文 | <a href="./README-CN.md">English</a> 
 </p>
 <p align="center">
     <em>
